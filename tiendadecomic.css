@@ -1,0 +1,243 @@
+
+
+
+
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(https://i.pinimg.com/originals/e6/36/ce/e636cec8c8ca0e8bfa9b57390c9da5d0.jpg);
+    background-image: cover;
+    color: #2b2b2b;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.zoomed{
+    transform: scale(1.1); /*Ajusta el valor de escala según el nivel de zoom deseado*/
+    transition: transform 0.8s; /*Ajusta la duración de la transición según tu preferencia*/
+}
+
+header h1 img{
+    border: 9px;
+    border-radius: 8px;
+    color: #ff0000;
+    padding: 0px 0;
+    text-align:  left;
+    margin: 30px;
+    list-style-type:lower-roman;
+    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: transparent;
+    height: 200px;
+    width: 200px;
+
+    
+
+}
+
+.contenedor{
+    display: flex;
+    background-image: url();
+}
+
+.imagen1{
+    width: 350px;
+    margin: right 50px; ;
+    height: 500px;
+    border: #00ff04;
+}
+
+
+.textos{
+    align-self:auto;
+    padding: 50px;
+}
+
+.precio{
+    text-align: right;
+}
+
+.entrega{
+    text-align: right;
+}
+
+.banner{
+    background-image: url(https://www.educaciontrespuntocero.com/wp-content/uploads/2019/01/herramientas-online-para-crear-comics-978x652.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.banner h2{
+    margin: 0;
+}
+
+.banner .boton{
+    display: inline-block;
+    background-color: #ff5e00;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.contenedor .entrega a{
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #00ff04;
+    color: #fff;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+div.contenedor aside{
+    text-align: left;
+    float: left;
+}
+
+.gallery {
+    display:flex;
+    overflow:hidden;
+}
+
+.gallery li img{
+    width: 159px;
+    height: 110px;
+}
+
+.gallery li{
+    flex: 0 0 auto;
+    margin: 10px;
+    animation: moveImages 10s infinite linear;
+}
+
+@keyframes moveImages{
+    0% {
+        transform: translateX(-300%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+nav {
+    background-color: #ff0000;
+    overflow: hidden;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+section{
+    margin: 15px;
+    padding: 15px;
+    border-radius: 60px;
+    background-color: #fcfcfbfa;
+    box-shadow: 0 2px 5px rgba((0), 0, 0, 0.2);
+    border:#00ff04;
+    border-style:groove;
+    
+    
+}
+
+
+
+
+aside{
+    background-color: #f2f2f2b7;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+footer{
+    background-color: #00ff04;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/*Estilos para formularios*/
+
+form{
+    background-color: #ffffffe5;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba((0), 0, 0, 0.2);
+}
+
+input[type="text"]
+input[type="email"]
+
+textarea {
+    width: 100%;
+    padding: 7px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+width: 100%;
+background-color: #a81f1f;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #45a049;
+}
+
+.novedades {
+    width: 100%;
+    
+    
+}
+
+.novedades img{
+    width: 300px;
+    height: 350px;
+    
+   align-items: center;
+   align-content: center;
+   text-align: center;
+}
